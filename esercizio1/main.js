@@ -1,6 +1,5 @@
 
 var num1;                
-var num2 = 3;
 
 num1=prompt("Inserici un numero intero")*1;
         
@@ -11,5 +10,7 @@ alert("Il numero è pari:" +" "+ num1);
 }
 else
 {
-alert("Il numero è dispari" +" "+ num2);
+    num1 += 1
+    console.log(num1)
+// alert("Il numero è dispari");
 }
